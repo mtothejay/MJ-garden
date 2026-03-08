@@ -1,6 +1,8 @@
 import useWeather from '../../hooks/useWeather'
 import WeatherCard from '../../components/WeatherCard'
 import NudgeCard from '../../components/NudgeCard'
+import WeekInGarden from '../../components/WeekInGarden'
+import KeepAnEyeOut from '../../components/KeepAnEyeOut'
 import BotanicalDivider from '../../illustrations/BotanicalDivider'
 import checklistData from '../../data/checklist.json'
 
@@ -66,6 +68,12 @@ export default function Today() {
           ))}
         </div>
       )}
+
+      {/* This week in the garden */}
+      <WeekInGarden />
+
+      {/* Seasonal watchouts */}
+      <KeepAnEyeOut />
     </div>
   )
 }
