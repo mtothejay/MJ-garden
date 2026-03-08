@@ -1,40 +1,43 @@
-export { default as Oregano } from './Oregano'
-export { default as Thyme } from './Thyme'
-export { default as Chives } from './Chives'
-export { default as BasilSweet } from './BasilSweet'
-export { default as Parsley } from './Parsley'
-export { default as Cilantro } from './Cilantro'
-export { default as Dill } from './Dill'
-export { default as Arugula } from './Arugula'
-export { default as TomatoSweetie } from './TomatoSweetie'
-export { default as Aster } from './Aster'
-export { default as Pansy } from './Pansy'
-export { default as Delphinium } from './Delphinium'
-export { default as Lupine } from './Lupine'
-export { default as BasilTulsi } from './BasilTulsi'
-export { default as Valerian } from './Valerian'
-export { default as Yarrow } from './Yarrow'
-export { default as Lavender } from './Lavender'
-export { default as Echinacea } from './Echinacea'
-export { default as Chamomile } from './Chamomile'
-export { default as SwissChard } from './SwissChard'
-export { default as BasilThai } from './BasilThai'
-export { default as Rosemary } from './Rosemary'
-export { default as Shiso } from './Shiso'
-export { default as Mint } from './Mint'
-export { default as Spinach } from './Spinach'
-export { default as Calendula } from './Calendula'
-export { default as Lettuce } from './Lettuce'
-export { default as Alyssum } from './Alyssum'
-export { default as Nasturtium } from './Nasturtium'
-export { default as Marigold } from './Marigold'
-export { default as Kale } from './Kale'
-export { default as Snapdragon } from './Snapdragon'
+import Oregano from './Oregano'
+import Thyme from './Thyme'
+import Chives from './Chives'
+import BasilSweet from './BasilSweet'
+import Parsley from './Parsley'
+import Cilantro from './Cilantro'
+import Dill from './Dill'
+import Arugula from './Arugula'
+import TomatoSweetie from './TomatoSweetie'
+import Aster from './Aster'
+import Pansy from './Pansy'
+import Delphinium from './Delphinium'
+import Lupine from './Lupine'
+import BasilTulsi from './BasilTulsi'
+import Valerian from './Valerian'
+import Yarrow from './Yarrow'
+import Lavender from './Lavender'
+import Echinacea from './Echinacea'
+import Chamomile from './Chamomile'
+import SwissChard from './SwissChard'
+import BasilThai from './BasilThai'
+import Rosemary from './Rosemary'
+import Shiso from './Shiso'
+import Mint from './Mint'
+import Spinach from './Spinach'
+import Calendula from './Calendula'
+import Lettuce from './Lettuce'
+import Alyssum from './Alyssum'
+import Nasturtium from './Nasturtium'
+import Marigold from './Marigold'
+import Kale from './Kale'
+import Snapdragon from './Snapdragon'
 
-/**
- * Lookup a plant illustration component by plantKey from plants.json.
- * Returns the component or null if not found.
- */
+export {
+  Oregano, Thyme, Chives, BasilSweet, Parsley, Cilantro, Dill, Arugula,
+  TomatoSweetie, Aster, Pansy, Delphinium, Lupine, BasilTulsi, Valerian, Yarrow,
+  Lavender, Echinacea, Chamomile, SwissChard, BasilThai, Rosemary, Shiso, Mint,
+  Spinach, Calendula, Lettuce, Alyssum, Nasturtium, Marigold, Kale, Snapdragon,
+}
+
 const plantKeyMap = {
   'oregano': Oregano,
   'thyme': Thyme,
