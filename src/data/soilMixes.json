@@ -1,0 +1,69 @@
+{
+  "mixes": [
+    {
+      "mixId": "A",
+      "name": "Lightweight Railing Mix",
+      "containers": ["C5", "C10"],
+      "description": "Lightweight priority — for railing boxes where weight matters",
+      "ratios": { "pottingMix": 60, "compost": 25, "perlite": 15, "sand": 0 },
+      "notes": "Lightest mix. Good general-purpose for flowers."
+    },
+    {
+      "mixId": "B",
+      "name": "Moisture-Retentive Greens Mix",
+      "containers": ["C3", "C8"],
+      "description": "Holds moisture well for leafy greens and mint",
+      "ratios": { "pottingMix": 50, "compost": 30, "perlite": 20, "sand": 0 },
+      "notes": "Extra compost keeps moisture high for thirsty greens."
+    },
+    {
+      "mixId": "C",
+      "name": "Mediterranean Drainage Mix",
+      "containers": ["C2"],
+      "description": "Excellent drainage for Mediterranean herbs",
+      "ratios": { "pottingMix": 50, "compost": 20, "perlite": 20, "sand": 10 },
+      "notes": "Sand and perlite ensure rosemary, lavender, and thyme don't get wet feet."
+    },
+    {
+      "mixId": "D",
+      "name": "Rich Tomato & Basil Mix",
+      "containers": ["C1", "C6"],
+      "description": "Rich and moisture-retentive for heavy feeders",
+      "ratios": { "pottingMix": 50, "compost": 30, "perlite": 20, "sand": 0 },
+      "notes": "Tomatoes and basil love rich soil. Add slow-release fertilizer at planting."
+    },
+    {
+      "mixId": "E",
+      "name": "Medicinal Herb Mix",
+      "containers": ["C7"],
+      "description": "Good drainage with moderate fertility",
+      "ratios": { "pottingMix": 50, "compost": 25, "perlite": 20, "sand": 5 },
+      "notes": "Balanced mix. Valerian likes moisture; lavender likes drainage — this splits the difference."
+    },
+    {
+      "mixId": "F",
+      "name": "Deep Flower Mix",
+      "containers": ["C4"],
+      "description": "Well-draining mix for deep flower containers",
+      "ratios": { "pottingMix": 55, "compost": 25, "perlite": 15, "sand": 5 },
+      "notes": "Slightly more potting mix for deep pots. Good for lupine's taproot."
+    },
+    {
+      "mixId": "G",
+      "name": "Lean Direct-Sow Mix",
+      "containers": ["C9", "C9B"],
+      "description": "Lean soil — nasturtium prefers low fertility",
+      "ratios": { "pottingMix": 60, "compost": 20, "perlite": 15, "sand": 5 },
+      "notes": "Low fertility on purpose. Rich soil makes nasturtium all leaves, no flowers."
+    }
+  ],
+  "shoppingList": [
+    { "item": "Potting mix (56.6L bags)", "quantity": 3, "cost": 66 },
+    { "item": "Compost/worm castings (30L bags)", "quantity": 3, "cost": 48 },
+    { "item": "Perlite (20L bags)", "quantity": 2, "cost": 36 },
+    { "item": "Coarse horticultural sand (20L)", "quantity": 1, "cost": 8 },
+    { "item": "Slow-release granular fertilizer", "quantity": 1, "cost": 18 }
+  ],
+  "totalCost": 176,
+  "currency": "CAD"
+}

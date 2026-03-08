@@ -1,0 +1,142 @@
+{
+  "months": [
+    {
+      "month": "march",
+      "title": "march",
+      "subtitle": "the waiting begins",
+      "narrative": "The snow is still melting and the balcony is bare, but inside, something is stirring. Seeds are soaking, the trays are filling up, and the heat mat is humming. This is the month of patience and tiny beginnings.",
+      "tasks": [
+        { "taskId": "mar-01", "text": "refrigerate pansy seeds for 7 days" },
+        { "taskId": "mar-02", "text": "start cold-stratifying delphinium seeds" },
+        { "taskId": "mar-03", "text": "start cold-stratifying lavender seeds" },
+        { "taskId": "mar-04", "text": "surface sow all 30 rosemary seeds — patience with this one" },
+        { "taskId": "mar-05", "text": "sow tomato sweetie on heat mat (march 20)" },
+        { "taskId": "mar-06", "text": "sow calendula, aster, alyssum, marigold (march 20)" },
+        { "taskId": "mar-07", "text": "sow snapdragon in 16-tray — no heat pad, surface sow (march 20)" },
+        { "taskId": "mar-08", "text": "set up the heat mat and grow light" },
+        { "taskId": "mar-09", "text": "check that all seed packets are accounted for" },
+        { "taskId": "mar-10", "text": "order peat pellets if running low" }
+      ]
+    },
+    {
+      "month": "april",
+      "title": "april",
+      "subtitle": "something is happening",
+      "narrative": "The trays are filling up with green. Sprouts are pushing through and the apartment smells like damp earth. April is the month where the garden stops being theoretical and becomes real.",
+      "tasks": [
+        { "taskId": "apr-01", "text": "sow basil (sweet, thai, tulsi) on heat mat (april 3)" },
+        { "taskId": "apr-02", "text": "sow oregano, thyme, chives (april 3)" },
+        { "taskId": "apr-03", "text": "soak parsley seeds 24h, then sow (april 3)" },
+        { "taskId": "apr-04", "text": "sow chamomile — surface sow, mist gently" },
+        { "taskId": "apr-05", "text": "sow valerian — surface sow, press lightly" },
+        { "taskId": "apr-06", "text": "sow yarrow — surface sow, barely press" },
+        { "taskId": "apr-07", "text": "cold-stratify echinacea 7 days, then sow in 16-tray (dark)" },
+        { "taskId": "apr-08", "text": "cold-stratify shiso 7–10 days, then sow" },
+        { "taskId": "apr-09", "text": "sow swiss chard, kale, mint (april 3)" },
+        { "taskId": "apr-10", "text": "sow lettuce and spinach in 16-tray (april 3)" },
+        { "taskId": "apr-11", "text": "soak and scarify lupine seeds — careful, they're toxic" },
+        { "taskId": "apr-12", "text": "sow arugula (april 17)" },
+        { "taskId": "apr-13", "text": "check all march sowings for sprouts" },
+        { "taskId": "apr-14", "text": "thin crowded seedlings if needed" },
+        { "taskId": "apr-15", "text": "start shopping for soil ingredients and pots" }
+      ]
+    },
+    {
+      "month": "may",
+      "title": "may",
+      "subtitle": "the balcony opens",
+      "narrative": "May 15 is the day. The last frost passes and everything moves outside. The hardening-off dance begins a week early — trays go out for a few hours, then come back in. By month's end, the balcony is alive.",
+      "tasks": [
+        { "taskId": "may-01", "text": "begin hardening off seedlings (may 8 — one week before transplant)" },
+        { "taskId": "may-02", "text": "mix all soil recipes (A through G)" },
+        { "taskId": "may-03", "text": "set up all containers on the balcony" },
+        { "taskId": "may-04", "text": "transplant everything on may 15" },
+        { "taskId": "may-05", "text": "direct sow cilantro and dill in C9B" },
+        { "taskId": "may-06", "text": "soak nasturtium seeds 12–24h, then direct sow in C9" },
+        { "taskId": "may-07", "text": "water everything deeply after transplanting" },
+        { "taskId": "may-08", "text": "install tomato cage or stakes in C1" },
+        { "taskId": "may-09", "text": "check railing brackets are secure" },
+        { "taskId": "may-10", "text": "take a photo of the fresh balcony" }
+      ]
+    },
+    {
+      "month": "june",
+      "title": "june",
+      "subtitle": "the garden fills in",
+      "narrative": "The containers are settling in. Roots are reaching down, leaves are reaching up, and the first tiny harvests appear. June is about watching, adjusting, and learning what each plant wants.",
+      "tasks": [
+        { "taskId": "jun-01", "text": "establish a watering routine — check soil daily" },
+        { "taskId": "jun-02", "text": "pinch basil tips to encourage bushiness" },
+        { "taskId": "jun-03", "text": "watch for aphids on the nasturtiums and roses" },
+        { "taskId": "jun-04", "text": "first arugula and lettuce harvests" },
+        { "taskId": "jun-05", "text": "deadhead pansies and marigolds" },
+        { "taskId": "jun-06", "text": "check if any seedlings need potting up" },
+        { "taskId": "jun-07", "text": "succession sow cilantro (it bolts fast)" },
+        { "taskId": "jun-08", "text": "feed tomatoes with liquid fertilizer" }
+      ]
+    },
+    {
+      "month": "july",
+      "title": "july",
+      "subtitle": "abundance",
+      "narrative": "This is peak season. The tomatoes are ripening, the herbs are lush, and the flowers are putting on a show. Harvest often, water deeply, and spend evenings on the balcony watching it all happen.",
+      "tasks": [
+        { "taskId": "jul-01", "text": "harvest tomatoes as they ripen" },
+        { "taskId": "jul-02", "text": "keep pinching basil — make pesto if there's too much" },
+        { "taskId": "jul-03", "text": "deadhead everything weekly" },
+        { "taskId": "jul-04", "text": "watch for heat stress — shade cloth if over 30°C" },
+        { "taskId": "jul-05", "text": "harvest chamomile flowers for drying" },
+        { "taskId": "jul-06", "text": "cut lavender when flowers just open — dry for sachets" },
+        { "taskId": "jul-07", "text": "water in the evening during hot spells" },
+        { "taskId": "jul-08", "text": "feed containers every 2 weeks" }
+      ]
+    },
+    {
+      "month": "august",
+      "title": "august",
+      "subtitle": "deep summer",
+      "narrative": "The garden is at its most generous. Tomatoes are going wild, herbs are at their aromatic peak, and the balcony feels like a small jungle. Enjoy it — this is what all those March mornings were for.",
+      "tasks": [
+        { "taskId": "aug-01", "text": "keep harvesting tomatoes — share extras with neighbours" },
+        { "taskId": "aug-02", "text": "dry herbs for winter — oregano, thyme, rosemary" },
+        { "taskId": "aug-03", "text": "harvest echinacea flowers at peak bloom" },
+        { "taskId": "aug-04", "text": "collect calendula petals for drying" },
+        { "taskId": "aug-05", "text": "sow a late round of arugula and lettuce for fall" },
+        { "taskId": "aug-06", "text": "check for powdery mildew in humid weather" },
+        { "taskId": "aug-07", "text": "make tulsi tea from fresh leaves" },
+        { "taskId": "aug-08", "text": "take a midsummer garden photo" }
+      ]
+    },
+    {
+      "month": "september",
+      "title": "september",
+      "subtitle": "slowing down",
+      "narrative": "The evenings are shorter and the mornings are cooler. The tomatoes are giving their last, the asters are just getting started, and the kale is coming into its own. Time to start thinking about wrapping up.",
+      "tasks": [
+        { "taskId": "sep-01", "text": "harvest remaining tomatoes — green ones ripen on windowsill" },
+        { "taskId": "sep-02", "text": "enjoy the asters and snapdragons — they love cool weather" },
+        { "taskId": "sep-03", "text": "save seeds from calendula, nasturtium, marigold" },
+        { "taskId": "sep-04", "text": "harvest valerian roots if ready (second year)" },
+        { "taskId": "sep-05", "text": "final herb harvest for drying and freezing" },
+        { "taskId": "sep-06", "text": "bring rosemary and lavender inside before first frost warning" },
+        { "taskId": "sep-07", "text": "reduce watering as temperatures drop" }
+      ]
+    },
+    {
+      "month": "october",
+      "title": "october",
+      "subtitle": "putting the balcony to bed",
+      "narrative": "The growing season is winding down. The last kale leaves are sweeter after a frost, and the balcony is getting quieter. It's time to clean up, compost, and start dreaming about next year.",
+      "tasks": [
+        { "taskId": "oct-01", "text": "harvest the last of everything" },
+        { "taskId": "oct-02", "text": "empty and clean all containers" },
+        { "taskId": "oct-03", "text": "compost spent soil or store for refreshing next spring" },
+        { "taskId": "oct-04", "text": "clean and store pots, trays, and tools" },
+        { "taskId": "oct-05", "text": "bring any perennials inside for winter (lavender, rosemary)" },
+        { "taskId": "oct-06", "text": "export garden data as a JSON backup" },
+        { "taskId": "oct-07", "text": "make notes about what worked and what to change next year" },
+        { "taskId": "oct-08", "text": "rest — you grew a garden on a balcony" }
+      ]
+    }
+  ]
+}

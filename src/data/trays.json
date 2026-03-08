@@ -1,0 +1,46 @@
+{
+  "trays": [
+    {
+      "trayId": "72",
+      "label": "72-cell tray",
+      "rows": 12,
+      "cols": 6,
+      "zones": {
+        "heat": { "rows": [1, 2, 3, 4], "label": "Heat pad zone", "description": "Rows 1–4 on heat mat (22–28°C)" },
+        "light": { "rows": [5, 6, 7, 8], "label": "Light zone", "description": "Rows 5–8 room temp with light" },
+        "cool": { "rows": [9, 10, 11, 12], "label": "Cool zone", "description": "Rows 9–12 cooler spot (15–18°C)" }
+      }
+    },
+    {
+      "trayId": "16",
+      "label": "16-cell tray",
+      "rows": 4,
+      "cols": 4,
+      "zones": {
+        "cool": { "rows": [1, 2, 3, 4], "label": "Cool/dark zone", "description": "All cells — cool conditions, can be covered for darkness" }
+      }
+    }
+  ],
+  "defaultAssignments": {
+    "72": {
+      "A1": "tomato-sweetie", "A2": "tomato-sweetie", "A3": "tomato-sweetie", "A4": "tomato-sweetie", "A5": "tomato-sweetie", "A6": "tomato-sweetie",
+      "B1": "basil-sweet", "B2": "basil-sweet", "B3": "basil-sweet", "B4": "basil-sweet", "B5": "basil-thai", "B6": "basil-thai",
+      "C1": "basil-tulsi", "C2": "basil-tulsi", "C3": "marigold", "C4": "marigold", "C5": "marigold", "C6": "marigold",
+      "D1": "rosemary", "D2": "rosemary", "D3": "rosemary", "D4": "rosemary", "D5": "rosemary", "D6": "rosemary",
+      "E1": "oregano", "E2": "oregano", "E3": "thyme", "E4": "thyme", "E5": "chives", "E6": "chives",
+      "F1": "parsley", "F2": "parsley", "F3": "parsley", "F4": "chamomile", "F5": "chamomile", "F6": "chamomile",
+      "G1": "valerian", "G2": "valerian", "G3": "yarrow", "G4": "yarrow", "G5": "calendula", "G6": "calendula",
+      "H1": "aster", "H2": "aster", "H3": "aster", "H4": "alyssum", "H5": "alyssum", "H6": "alyssum",
+      "I1": "swiss-chard", "I2": "swiss-chard", "I3": "swiss-chard", "I4": "shiso", "I5": "shiso", "I6": "mint",
+      "J1": "delphinium", "J2": "delphinium", "J3": "delphinium", "J4": "delphinium", "J5": "lavender", "J6": "lavender",
+      "K1": "lavender", "K2": "lavender", "K3": "pansy", "K4": "pansy", "K5": "pansy", "K6": "pansy",
+      "L1": "lupine", "L2": "lupine", "L3": "lupine", "L4": "kale", "L5": "kale", "L6": "arugula"
+    },
+    "16": {
+      "A1": "snapdragon", "A2": "snapdragon", "A3": "snapdragon", "A4": "snapdragon",
+      "B1": "echinacea", "B2": "echinacea", "B3": "echinacea", "B4": "echinacea",
+      "C1": "spinach", "C2": "spinach", "C3": "spinach", "C4": "spinach",
+      "D1": "lettuce", "D2": "lettuce", "D3": "lettuce", "D4": "lettuce"
+    }
+  }
+}

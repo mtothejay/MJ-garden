@@ -1,0 +1,123 @@
+[
+  {
+    "containerId": "C1",
+    "name": "Tomato Tower",
+    "emoji": "🍅",
+    "plants": ["tomato-sweetie", "basil-sweet", "thyme", "oregano", "marigold", "alyssum"],
+    "soilMix": "D",
+    "potSize": "15 gal grow bag (57L)",
+    "wetWeight": "~35 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 70, "y": 70, "width": 22, "height": 22 }
+  },
+  {
+    "containerId": "C2",
+    "name": "Mediterranean Herb Tower",
+    "emoji": "🌿",
+    "plants": ["oregano", "thyme", "chives", "rosemary", "lavender"],
+    "soilMix": "C",
+    "potSize": "20–25L",
+    "wetWeight": "~17 kg",
+    "wateringCadence": { "cool": 4, "normal": 3, "hot": 2, "heatwave": 1 },
+    "position": { "x": 10, "y": 15, "width": 16, "height": 16 }
+  },
+  {
+    "containerId": "C3",
+    "name": "Cool Greens Box",
+    "emoji": "🥗",
+    "plants": ["swiss-chard", "lettuce", "spinach", "arugula", "chamomile", "chives", "parsley", "alyssum"],
+    "soilMix": "B",
+    "potSize": "25–30L",
+    "wetWeight": "~21 kg",
+    "wateringCadence": { "cool": 2, "normal": 1, "hot": 1, "heatwave": 1 },
+    "position": { "x": 10, "y": 55, "width": 24, "height": 14 }
+  },
+  {
+    "containerId": "C4",
+    "name": "Cottage Flower Tower",
+    "emoji": "🌸",
+    "plants": ["delphinium", "lupine", "echinacea", "yarrow", "aster", "pansy", "marigold"],
+    "soilMix": "F",
+    "potSize": "25–30L deep",
+    "wetWeight": "~21 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 10, "y": 35, "width": 16, "height": 16 }
+  },
+  {
+    "containerId": "C5",
+    "name": "Pansy Parade",
+    "emoji": "🌸",
+    "plants": ["pansy", "chives", "alyssum"],
+    "soilMix": "A",
+    "potSize": "Window box 50–60cm",
+    "wetWeight": "~5–6 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 5, "y": 85, "width": 28, "height": 8 }
+  },
+  {
+    "containerId": "C6",
+    "name": "Kitchen Herb Pot",
+    "emoji": "🌿",
+    "plants": ["basil-sweet", "basil-tulsi", "basil-thai", "shiso", "chives", "parsley"],
+    "soilMix": "D",
+    "potSize": "15–20L",
+    "wetWeight": "~14 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 55, "y": 15, "width": 16, "height": 16 }
+  },
+  {
+    "containerId": "C7",
+    "name": "Medicinal & Dreams",
+    "emoji": "💊",
+    "plants": ["valerian", "lavender", "echinacea", "chamomile", "yarrow"],
+    "soilMix": "E",
+    "potSize": "20–25L",
+    "wetWeight": "~17 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 55, "y": 35, "width": 16, "height": 16 }
+  },
+  {
+    "containerId": "C8",
+    "name": "Mint Isolation Pot",
+    "emoji": "🌿",
+    "plants": ["mint"],
+    "soilMix": "B",
+    "potSize": "Window box 40–50cm (isolated)",
+    "wetWeight": "~4–5 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 82, "y": 85, "width": 14, "height": 8 }
+  },
+  {
+    "containerId": "C9",
+    "name": "Nasturtium Rail Pot",
+    "emoji": "🌸",
+    "plants": ["nasturtium", "calendula", "alyssum"],
+    "soilMix": "G",
+    "potSize": "Window box 60cm × 20cm deep",
+    "wetWeight": "~7–8 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 35, "y": 85, "width": 28, "height": 8 }
+  },
+  {
+    "containerId": "C9B",
+    "name": "Direct-Sow Floor Pot",
+    "emoji": "🌱",
+    "plants": ["cilantro", "dill", "arugula"],
+    "soilMix": "G",
+    "potSize": "10–12L",
+    "wetWeight": "~7 kg",
+    "wateringCadence": { "cool": 2, "normal": 1, "hot": 1, "heatwave": 1 },
+    "position": { "x": 55, "y": 55, "width": 12, "height": 12 }
+  },
+  {
+    "containerId": "C10",
+    "name": "Snapdragon Display",
+    "emoji": "🌸",
+    "plants": ["snapdragon", "alyssum", "calendula"],
+    "soilMix": "A",
+    "potSize": "Window box 60–70cm",
+    "wetWeight": "~8–9 kg",
+    "wateringCadence": { "cool": 3, "normal": 2, "hot": 1, "heatwave": 1 },
+    "position": { "x": 65, "y": 85, "width": 28, "height": 8 }
+  }
+]
