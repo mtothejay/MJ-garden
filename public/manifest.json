@@ -1,0 +1,9 @@
+{
+  "name": "MJ & Josephine's Garden",
+  "short_name": "Garden",
+  "theme_color": "#5C7A5E",
+  "background_color": "#F5F0E8",
+  "display": "standalone",
+  "start_url": "/today",
+  "icons": []
+}
