@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import plants from '../data/plants.json'
 import containers from '../data/containers.json'
+import { getPlantIllustration } from '../illustrations/plants'
 
 const typeColors = {
   herb: 'bg-sage/15 text-sage',
@@ -43,15 +44,22 @@ export default function PlantDetail({ plantKey, isOpen, onClose }) {
             </button>
 
             {/* Botanical illustration area */}
-            <div className="w-full h-32 flex items-center justify-center bg-linen rounded-card mb-5">
-              <svg width="64" height="64" viewBox="0 0 40 40" fill="none" stroke="var(--color-sage)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" opacity="0.3">
-                <path d="M20 35V18" />
-                <path d="M14 22c-5-1-8-5-6-10 4-.5 8 2 10 6" />
-                <path d="M26 18c4-2 8-1 9 3-3 2-7 1-9-2" />
-                <path d="M16 28c-3 0-5-2-5-4 3-1 5.5 0 6.5 2" />
-                <path d="M24 28c3 0 5-2 5-4-3-1-5.5 0-6.5 2" />
-                <circle cx="20" cy="12" r="3" strokeDasharray="2 2" />
-              </svg>
+            <div className="w-full h-40 flex items-center justify-center bg-linen rounded-card mb-5">
+              {(() => {
+                const Illustration = getPlantIllustration(plant.plantKey)
+                return Illustration ? (
+                  <Illustration size={140} className="text-forest" />
+                ) : (
+                  <svg width="64" height="64" viewBox="0 0 40 40" fill="none" stroke="var(--color-sage)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" opacity="0.3">
+                    <path d="M20 35V18" />
+                    <path d="M14 22c-5-1-8-5-6-10 4-.5 8 2 10 6" />
+                    <path d="M26 18c4-2 8-1 9 3-3 2-7 1-9-2" />
+                    <path d="M16 28c-3 0-5-2-5-4 3-1 5.5 0 6.5 2" />
+                    <path d="M24 28c3 0 5-2 5-4-3-1-5.5 0-6.5 2" />
+                    <circle cx="20" cy="12" r="3" strokeDasharray="2 2" />
+                  </svg>
+                )
+              })()}
             </div>
 
             {/* Name */}

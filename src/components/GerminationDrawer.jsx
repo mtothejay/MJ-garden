@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import plants from '../data/plants.json'
 import LocationToggle from './LocationToggle'
+import { getPlantIllustration } from '../illustrations/plants'
 
 function getExpectedSproutWindow(sownDate, plant) {
   if (!sownDate || !plant) return null
@@ -61,9 +62,17 @@ export default function GerminationDrawer({
                 <div className="w-10 h-1 bg-sage/20 rounded-full" />
               </div>
 
-              {/* Plant name */}
-              <h2 className="font-display text-forest text-xl mb-1">{plant.commonName}</h2>
-              <p className="font-body text-text-soft text-sm italic mb-4">{plant.latinName}</p>
+              {/* Plant name + illustration */}
+              <div className="flex items-center gap-3 mb-4">
+                {(() => {
+                  const Illustration = getPlantIllustration(plantKey)
+                  return Illustration ? <Illustration size={48} className="text-sage shrink-0" /> : null
+                })()}
+                <div>
+                  <h2 className="font-display text-forest text-xl mb-1">{plant.commonName}</h2>
+                  <p className="font-body text-text-soft text-sm italic">{plant.latinName}</p>
+                </div>
+              </div>
 
               {/* Cell reference */}
               <p className="font-hand text-text-soft text-base mb-4">
