@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Quick CLI script to read all tabs from the garden master spreadsheet.
+ * Read all tabs from the garden master spreadsheet.
  * Usage: node scripts/read-sheet.js
  */
 
